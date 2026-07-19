@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1E1E1E1E1E1E1E1E1E1E1E1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D1D1D1D1D1D1D1D1D1D1D1 /* main.swift */; };
+		E2E2E2E2E2E2E2E2E2E2E2E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D2D2D2D2D2D2D2D2D2D2D2 /* AppDelegate.swift */; };
+		E3E3E3E3E3E3E3E3E3E3E3E3 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D3D3D3D3D3D3D3D3D3D3D3 /* StatusBarController.swift */; };
+		E4E4E4E4E4E4E4E4E4E4E4E4 /* ShelfWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D4D4D4D4D4D4D4D4D4D4D4 /* ShelfWindowController.swift */; };
+		E5E5E5E5E5E5E5E5E5E5E5E5 /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D5D5D5D5D5D5D5D5D5D5D5 /* ShelfView.swift */; };
+		E6E6E6E6E6E6E6E6E6E6E6E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D7D7D7D7D7D7D7D7D7D7D7 /* Assets.xcassets */; };
+		H2H2H2H2H2H2H2H2H2H2H2H2 /* ShakeDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = H1H1H1H1H1H1H1H1H1H1H1H1 /* ShakeDetector.swift */; };
+		QL2QL2QL2QL2QL2QL2QL2QL2 /* QuickLookThumbnailing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = QL1QL1QL1QL1QL1QL1QL1QL1 /* QuickLookThumbnailing.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1D1D1D1D1D1D1D1D1D1D1D1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2D2D2D2D2D2D2D2D2D2D2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3D3D3D3D3D3D3D3D3D3D3D3 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		D4D4D4D4D4D4D4D4D4D4D4D4 /* ShelfWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfWindowController.swift; sourceTree = "<group>"; };
+		D5D5D5D5D5D5D5D5D5D5D5D5 /* ShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		D6D6D6D6D6D6D6D6D6D6D6D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D7D7D7D7D7D7D7D7D7D7D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8D8D8D8D8D8D8D8D8D8D8D8 /* MyShelf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyShelf.entitlements; sourceTree = "<group>"; };
+		D9D9D9D9D9D9D9D9D9D9D9D9 /* MyShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		H1H1H1H1H1H1H1H1H1H1H1H1 /* ShakeDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeDetector.swift; sourceTree = "<group>"; };
+		QL1QL1QL1QL1QL1QL1QL1QL1 /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3C3C3C3C3C3C3C3C3C3C3C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				QL2QL2QL2QL2QL2QL2QL2QL2 /* QuickLookThumbnailing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1F1F1F1F1F1F1F1F1F1F1F1 = {
+			isa = PBXGroup;
+			children = (
+				F2F2F2F2F2F2F2F2F2F2F2F2 /* MyShelf */,
+				F3F3F3F3F3F3F3F3F3F3F3F3 /* Products */,
+				F4F4F4F4F4F4F4F4F4F4F4F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F2F2F2F2F2F2F2F2F2F2F2 /* MyShelf */ = {
+			isa = PBXGroup;
+			children = (
+				D1D1D1D1D1D1D1D1D1D1D1D1 /* main.swift */,
+				D2D2D2D2D2D2D2D2D2D2D2D2 /* AppDelegate.swift */,
+				D3D3D3D3D3D3D3D3D3D3D3D3 /* StatusBarController.swift */,
+				D4D4D4D4D4D4D4D4D4D4D4D4 /* ShelfWindowController.swift */,
+				D5D5D5D5D5D5D5D5D5D5D5D5 /* ShelfView.swift */,
+				D6D6D6D6D6D6D6D6D6D6D6D6 /* Info.plist */,
+				D7D7D7D7D7D7D7D7D7D7D7D7 /* Assets.xcassets */,
+				D8D8D8D8D8D8D8D8D8D8D8D8 /* MyShelf.entitlements */,
+				H1H1H1H1H1H1H1H1H1H1H1H1 /* ShakeDetector.swift */,
+			);
+			path = MyShelf;
+			sourceTree = "<group>";
+		};
+		F3F3F3F3F3F3F3F3F3F3F3F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9D9D9D9D9D9D9D9D9D9D9D9 /* MyShelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F4F4F4F4F4F4F4F4F4F4F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				QL1QL1QL1QL1QL1QL1QL1QL1 /* QuickLookThumbnailing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B1B1B1B1B1B1B1B1B1B1B1 /* MyShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = G6G6G6G6G6G6G6G6G6G6G6G6 /* Build configuration list for PBXNativeTarget "MyShelf" */;
+			buildPhases = (
+				C1C1C1C1C1C1C1C1C1C1C1C1 /* Sources */,
+				C2C2C2C2C2C2C2C2C2C2C2C2 /* Resources */,
+				C3C3C3C3C3C3C3C3C3C3C3C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyShelf;
+			productName = MyShelf;
+			productReference = D9D9D9D9D9D9D9D9D9D9D9D9 /* MyShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A1A1A1A1A1A1A1A1A1A1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B1B1B1B1B1B1B1B1B1B1B1B1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = G5G5G5G5G5G5G5G5G5G5G5G5 /* Build configuration list for PBXProject "MyShelf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F1F1F1F1F1F1F1F1F1F1F1;
+			productRefGroup = F3F3F3F3F3F3F3F3F3F3F3F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B1B1B1B1B1B1B1B1B1B1B1 /* MyShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C2C2C2C2C2C2C2C2C2C2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E6E6E6E6E6E6E6E6E6E6E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C1C1C1C1C1C1C1C1C1C1C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E1E1E1E1E1E1E1E1E1E1E1 /* main.swift in Sources */,
+				E2E2E2E2E2E2E2E2E2E2E2E2 /* AppDelegate.swift in Sources */,
+				E3E3E3E3E3E3E3E3E3E3E3E3 /* StatusBarController.swift in Sources */,
+				E4E4E4E4E4E4E4E4E4E4E4E4 /* ShelfWindowController.swift in Sources */,
+				E5E5E5E5E5E5E5E5E5E5E5E5 /* ShelfView.swift in Sources */,
+				H2H2H2H2H2H2H2H2H2H2H2H2 /* ShakeDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		G1G1G1G1G1G1G1G1G1G1G1G1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		G2G2G2G2G2G2G2G2G2G2G2G2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		G3G3G3G3G3G3G3G3G3G3G3G3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyShelf/MyShelf.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKTAQ2A644;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woochan.myshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		G4G4G4G4G4G4G4G4G4G4G4G4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyShelf/MyShelf.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RKTAQ2A644;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyShelf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.woochan.myshelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		G5G5G5G5G5G5G5G5G5G5G5G5 /* Build configuration list for PBXProject "MyShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G1G1G1G1G1G1G1G1G1G1G1G1 /* Debug */,
+				G2G2G2G2G2G2G2G2G2G2G2G2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		G6G6G6G6G6G6G6G6G6G6G6G6 /* Build configuration list for PBXNativeTarget "MyShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G3G3G3G3G3G3G3G3G3G3G3G3 /* Debug */,
+				G4G4G4G4G4G4G4G4G4G4G4G4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1A1A1A1A1A1A1A1A1A1A1A1 /* Project object */;
+}
