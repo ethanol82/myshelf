@@ -14,3 +14,4 @@ A lightweight macOS menubar app for quick, temporary file storage — built with
 
 ## Status
 Development complete.
+This is a personal study project and not affiliated with Dropover.
